@@ -1,0 +1,10 @@
+##### Pod example file #####
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example
+spec:
+  containers:
+    - name: busybox
+      image: busybox:1.25
+      
